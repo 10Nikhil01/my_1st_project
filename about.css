@@ -147,7 +147,7 @@
     .wrapper{
       flex-direction: column;
       gap:10px;
-      height: 100vh;
+      height: auto;
     }
     .wrapper .items:hover{
       transform: translateX(20px);
