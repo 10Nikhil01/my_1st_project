@@ -8,6 +8,20 @@
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Contact Page</title>
+    <script>
+        
+// to stop user to inspect by right click
+document.addEventListener('contextmenu',(e) =>{
+    e.preventDefault();},false);
+
+//to stop user to inspect by ctrl-u to view source code and also for f12 to bring up console
+    document.addEventListener('keydown',(e) =>{
+        if(e.ctrlKey || e.keyCode == 123){
+            e.stopPropagation();
+            e.preventDefault();
+        }
+    });   
+    </script>
 </head>
 <body>
     <div class="goback">
