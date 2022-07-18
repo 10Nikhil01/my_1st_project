@@ -109,10 +109,11 @@ header {
     align-items: flex-start;
     height: 950px;
   }
+  .card:hover{
+    flex-direction:column;
+  }
   .card:hover .content {
     width: 60%;
-    left: 0%;
-    top: -5%;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -125,7 +126,7 @@ header {
     border-radius: 20px;
   }
   .card:hover img{
-    display: none;
+    max-width: 40vh;
   }
 }
 @media (max-width: 420) {
@@ -148,7 +149,7 @@ header {
     transition: 0.5s;
   }
   .card:hover img {
-    width: 1500px;
+    width: 50px;
   }
   @media (max-width: 341) {
     .card img {
