@@ -150,6 +150,12 @@ textarea::-webkit-scrollbar {
     transition: .7s;
 }
 
+@media screen and (max-width:880px){
+  .contact{
+    flex-direction: column;
+  }
+}
+
 /* contact completed */
 
 
