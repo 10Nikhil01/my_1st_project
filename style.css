@@ -11,7 +11,7 @@ header {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background:linear-gradient(145deg, #862c11, #26b32a);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
