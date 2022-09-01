@@ -150,9 +150,49 @@ textarea::-webkit-scrollbar {
     transition: .7s;
 }
 
-@media screen and (max-width:880px){
+@media screen and (max-width:768px){
   .contact{
     flex-direction: column;
+  }
+  .contact .first {
+    width: auto; 
+    height: auto;
+    border-radius: 25px;
+    background-color: rgb(179, 72, 72);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+  .second h1{
+    font-size:2.5rem;
+    letter-spacing: 0px;
+  }
+  .card:hover img {
+     left: 0%;
+    
+   
+}
+  .card:hover .content{
+    left: 0%;
+    top: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+    text-align: center;
+  }
+  .card .content a{
+    max-width:100%;
+    padding:20px;
+    font-size:1.5rem;
+    text-align:center;
+  }
+  .card {
+    display:block;
+  }
+  header{
+    min-height:140vh;
   }
 }
 
